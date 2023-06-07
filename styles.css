@@ -1,0 +1,47 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar_grid{
+    
+    height: 800px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr 3fr 1fr 1fr 8fr
+}
+
+.sidebar_grid > div{
+    background-color:rgb(22, 107, 205);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.site_icon,.home_icon,.profile_icon,.messages_icon,.tasks_icon,
+.history_icon,.communities_icon,.settings_icon,.support_icon,.privacy_icon{
+    padding-left: 20px;
+}
+
+.communities_icon,.communities_text{
+    padding-bottom: 70px;
+}
+
+.privacy_icon,.privacy_text{
+    padding-bottom: 260px;
+}
+
+.dashboard_text{
+    font-size: 24px;
+}
+
+
+
+
